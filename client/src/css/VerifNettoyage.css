@@ -1,0 +1,241 @@
+/* Style for the container */
+.appc {
+    border-radius: 3px;
+    padding: 5px;
+    margin: 1px;
+    min-height: 700px;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+
+}
+
+.work {
+    margin: 2px auto;
+    padding: 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+    border: 2px solid #A9A9A9;
+    border-radius: 5px;
+    background-color: #ffffff;
+    min-height: 80vh;
+    max-height: 80vh;
+    width: 100%;
+    overflow: auto;
+    font-size: 0.8rem;
+    max-width: 1750px;
+    
+    
+    
+}
+
+.tableP {
+    width: 99%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+    
+}
+
+table th,
+table td {
+    padding: 2px;
+    border: 3px solid rgb(94, 93, 93);
+    
+    
+}
+
+table th {
+    background-color:#85858559;
+    font-weight: bold;
+    text-align: center;
+    display: table-cell;
+}
+    
+
+
+table td input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 0.2px solid #000000;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background-color: #D3D3D3;
+    display: table-column;
+    
+}
+
+/* Style for the Add Row button */
+button {
+    padding: 10px 20px;
+    background-color: rgb(76, 177, 76);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+button:hover {
+    background-color: #4ee055;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+button[disabled=disabled], button:disabled {
+    background-color: #ccc;
+    cursor: default;
+}
+
+/* CSS for the radio buttons */
+.radio-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.radio-container label {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.radio-container input[type="radio"] {
+    margin-right: 10px;
+    margin-left: 10px;
+   
+}
+.form-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.form-field {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-field input[type="text"] {
+    width: 99.5%;
+    padding: 10px;
+    border: 0.5px solid #000000;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #D3D3D3;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.titre1{
+    
+    font-size: 1.6rem;
+    color: #228b27;
+    margin-bottom: 20px;
+    
+    
+}
+.btnDeletee {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    color: #9c4949;
+    font-size: 28px;
+}
+
+.btnDeletee:hover {
+    color: #ec0b0b; 
+    background-color: transparent;
+    
+}
+.react-datepicker-wrapper {
+    display: inline-block;
+    width: 100%;
+}
+
+.react-datepicker__input-container input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    outline: none;
+}
+.fichef{
+    margin: 10px auto;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid #301934;
+    border-radius: 5px;
+    background-color: #f4f0ec;
+    min-height: 650px;
+}
+
+.print-page{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+
+.action-btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+  .action-btn2 {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+  textarea {
+    background-color: #D3D3D3;
+    width: 98%; 
+    border-radius: 1px; 
+    resize: both; 
+    font-size: 16px; 
+    font-family: Arial, sans-serif;
+    border: 0.5px solid #000000;
+   
+   
+  }
+  
+  /* Styles for textarea when focused */
+  textarea:focus {
+    border-color: #007bff; /* Change border color when focused */
+    outline: none; /* Remove outline */
+  }
+
+  

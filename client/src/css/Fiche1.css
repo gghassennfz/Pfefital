@@ -1,0 +1,112 @@
+/* Books Component  */
+.fiche1-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+/* BookCard.css */
+
+.fiche1-card {
+  
+  background-color: #f8f5e9;
+    border: 1px solid #8e0c7f;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 10px;
+    width: 230px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .fiche1-card  .fiche1-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .fiche1-card  .fiche1-details {
+    padding: 10px;
+  }
+  
+  .fiche1-card  .fiche1-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+  }
+  
+  .fiche1-card  button {
+    
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    
+    transition: background-color 0.3s ease-in-out;
+  
+    &:hover {
+      background-color: #2980b9;
+    }
+  }
+  .fiche1-card .btn-link {
+    text-decoration: none;
+    color: white;
+    
+  }
+  .fiche1-card .btn-link1 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: red;
+    
+  }
+  .Displayfiche{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    background-color: #f2f2f2;
+    max-width:100%;
+    justify-content: center;
+    
+    padding: 10px;
+  }
+
+  .fiche1-card .sta {
+    justify-content: center;
+    display: inline-block;
+    padding: 12px 7px;
+    text-align: center;
+    border: 1px solid #d9cdcd;
+    border-radius: 30px;
+    background-color: rgb(137, 7, 141);
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+    width: 150px;
+    margin-top: 30px;
+    
+    
+  }
+  
+  .fiche1-card .sta.disabled {
+    cursor: not-allowed;
+  }
+  
+  .fiche1-card .sta:hover:not(.disabled) {
+    background-color: #f0f0f0;
+  }
+  .statu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+   
+    
+  }

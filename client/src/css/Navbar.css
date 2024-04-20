@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background: #707171;
+    color: #fff;
+    padding-inline:45px ;
+    border-bottom: 3px solid #848884 ;
+    margin-bottom: 20px;
+
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+
+}
+.navbar-brand {
+    font-size: 1.8rem;
+    margin-right: 20px;
+    color: #903a8a;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif; /* Add your preferred font family */
+    font-weight: bold; /* Add font weight if desired */
+    
+  }
+  
+.navbar-link{
+    color: #27032a;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+    
+.navbar-link:hover{
+    
+    text-decoration: underline;
+}
+    
+.lefth2{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-bottom: 5px;
+
+}
+
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -10px; /* Adjust as needed */
+
+    
+}
+
+.logo {
+    width: 90px; /* Adjust the width as needed */
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* CSS styles for tablets and smaller screens */
+
+
+
+    
+}
+  /* Default styles */
+  .Profile {
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .PrifileText {
+    font-size: 1.1rem;
+    
+  }
+  
+  .logout{
+    margin-left: 10px  }

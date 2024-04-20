@@ -1,0 +1,121 @@
+.login-container .btn-login {
+    background-color: rgb(187, 21, 179);
+    color: #fff;
+    padding: 10px;
+    width: 95%;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 20px; 
+    box-shadow: 0 0 10px #903a8a;
+    transition: background-color 0.3s ease;
+    border: 5px solid rgba(255, 255, 255, .2);
+}
+
+/* Hover effect */
+.login-container .btn-login:hover {
+    background-color: rgb(119, 6, 114);
+}
+.login-container .form-group select {
+    width: 100%;
+    padding: 8px;
+    block-size: border-box;
+    margin-top: 4px;
+    
+}
+.login-container .form-group input{
+    width: 93.8%;
+    padding: 8px;
+    block-size: border-box;
+    margin-top: 4px;
+    border-radius: 25px;
+    background: white;
+    backdrop-filter: blur(5px);
+    border: none;
+    outline: none;
+    border: 2px solid #903a8a;
+    margin-bottom: 5px;
+}
+.login-container .form-group select{
+    width: 98.8%;
+    padding: 8px;
+    block-size: border-box;
+    margin-top: 4px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    backdrop-filter: blur(5px);
+    border: none;
+    outline: black;
+    border: 2px solid #903a8a;
+}
+.login-container .form-group label {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    color: white;
+    font-style: initial;
+}
+
+.login-container .form-group{
+    margin-bottom: 1px;
+}
+.login-container h2{
+    margin-bottom: 60px;
+    text-align: center;
+}
+.login-container{
+
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(146, 145, 145);
+    padding: 20px;
+    width: 400px;
+    
+}
+.login-page{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #926892;
+}
+.containerforlogo{
+    background-color: #ffffff40;
+    backdrop-filter: blur(1px);
+    border-radius: 8px;
+    box-shadow: 0 0 10px #903a8a;
+    padding: 10px;
+    width: 440px;
+    box-shadow: 10 10 10px black;
+    margin-left: -10%;
+    transition: transform 0.2s ease-in-out;
+    
+    &:hover {
+        transform: scale(1.0);
+      }
+    
+    
+
+}
+.Logologin {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28vh;
+    margin-left: 110px;
+    margin-bottom: 15px;
+}
+.uu{
+    height: 300px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: white;
+}

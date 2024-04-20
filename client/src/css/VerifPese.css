@@ -1,0 +1,86 @@
+/* Style for the container */
+.containerT {
+    margin: 10px auto;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 5px solid #301934;
+    border-radius: 5px;
+    background-color: hsl(28, 100%, 50%);
+    min-height: 750px;
+    width: 100%;
+}
+
+
+
+
+
+/* CSS for the radio buttons */
+.radio-container1 {
+    display: flex;
+
+}
+
+.radio-container1 label {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+.radio-container1 .radioword {
+margin-right: 100px;
+margin-bottom: 20px;
+
+}
+
+.radio-container1 input[type="radio"] {
+    margin-right: 5px;
+}
+.form-row1 {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.form-field1 {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.form-field1 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(7, 4, 44);
+}
+
+
+
+
+.btnDelete {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    color: gray;
+    font-size: 28px;
+}
+
+.btnDelete:hover {
+    color: red; 
+    background-color: transparent;
+    
+}
+
+
+
+
+.form-field1 input[type="text"] {
+    width: 97.6%;
+    padding: 10px;
+    border: 1px solid #782386;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #D3D3D3;
+    margin-bottom: 10px;
+}

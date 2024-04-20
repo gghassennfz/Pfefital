@@ -1,0 +1,77 @@
+.hero-image{
+    flex: 1;
+    background: url('') center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+.hero-description {
+    font-size: 1.2rem;
+    min-width: 400px;
+    margin-bottom: 20px;
+    color: purple;
+}
+.hero{
+    display: flex;
+    
+    color: black;
+    max-height: 85vh;
+    min-height: 85vh;
+    padding-inline: 10px;
+    max-width: 100%;
+    margin-left: 1px;
+    justify-content: center;
+    
+
+}
+.hero6{
+    display: flex;
+    background: linear-gradient(90deg, rgba(181,55,207,1) 0%, rgba(209,50,174,1) 50%, rgba(243,44,135,1) 100%);
+    color: gray;
+    height: 92vh;
+    padding-inline: 30px;
+    
+
+}
+
+
+
+.hero-text{
+    font-size: 4rem;
+    margin-bottom: 10px;
+    word-spacing: 1%;
+    color: rgba(78, 78, 78, 0.856);
+
+
+}
+
+
+.hero-image {
+
+
+    margin-top: 290px;
+   
+    width: 22vw;
+    background-size: 200%;
+  }
+
+
+
+  .Toastify__toast-container {
+    width: 300px; /* Adjust width as needed */
+}
+
+.Toastify__toast {
+    min-height: 50px; /* Adjust height as needed */
+    font-size: 22px; /* Adjust font size as needed */
+    padding: 10px; /* Adjust padding as needed */
+}
+
+.Toastify__toast--success {
+    background-color: #c3e3c9; /* Background color for success toast */
+}
+
+/* Positioning */
+.Toastify__toast-container {
+    bottom: 20px; /* Adjust bottom position */
+    right: 20px; /* Adjust right position */
+}

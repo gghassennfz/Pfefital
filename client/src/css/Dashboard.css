@@ -1,0 +1,84 @@
+/* Dashboard.css */
+
+.dash-container {
+  display: flex;
+}
+
+.dash-left {
+  width: 20%;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.dashboard {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.dashboard-box {
+  width: 250px;
+  height: 60px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #7f7f7f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-box h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: #ffffff;
+  
+}
+
+.dash-right {
+  width: 40%;
+  align-items: center;
+  
+}
+
+.stat-page {
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #f8f4f4;
+  box-shadow: 0 2px 4px rgba(197, 27, 200, 0.1);
+  min-height: 690px;
+}
+
+.stat-page h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+.stat-page h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  
+}
+.com-chart,
+.pie-chart,
+.bar-chart {
+  margin-top: 20px;
+  
+  
+}
+
+.pie-chart,
+.bar-chart,
+.com-chart,
+.responsive-container {
+  width: 90%;
+  height: 200px;
+}
+.dash-center {
+  width: 40%;
+  align-items: center;
+  
+  
+  
+}

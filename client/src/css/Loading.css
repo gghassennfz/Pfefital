@@ -1,0 +1,29 @@
+.loading-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(181,55,207);
+background: linear-gradient(90deg, rgb(61, 61, 61) 5%, rgb(139, 138, 139) 50%, rgb(255, 255, 255) 100%);
+    /* background: linear-gradient(to right ,rgb(141, 30, 151),#8c8c8c,white,white,#8c8c8c,rgb(141, 30, 151)) ; semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .loading-logo {
+    width: 300px; /* adjust size as needed */
+    height: 300px; /* adjust size as needed */
+    animation: spinY 2s linear infinite; /* Use spinY animation for rotating around Y-axis */
+  }
+  
+  @keyframes spinY {
+    from {
+      transform: rotateY(0deg); /* Rotate from 0 degrees around Y-axis */
+    }
+    to {
+      transform: rotateY(360deg); /* Rotate to 360 degrees around Y-axis */
+    }
+  }
+  
